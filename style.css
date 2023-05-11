@@ -1,11 +1,63 @@
-#imagem {height: 500px;}
 
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: aquamarine; */
+}
+
+#botao {
+position: absolute;
+top: 200px;
+
+
+}
+
+h1 {
+  position: absolute;
+  top: 100px;
+  z-index: 3
+
+}
+
+#imagem {
+  height: 500px;
+  /* width: 500px; */
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  z-index: 1;
+  overflow: auto;
+}
+#logo {
+  
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  top: 50px;
+  left: 100px;
+  z-index: 2;
+  overflow: auto;
+
+}
+
+#text {
+position: absolute;
+top: 610px;
+
+
+}
+
+
+
+
+/* padding */
 .paragrafo {
 
     width: 80%;
     height: 300px;
     overflow: auto;
 }
+/* box model */
 .caixa {
     color: white;
     display: inline-block;
