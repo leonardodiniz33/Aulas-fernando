@@ -1,0 +1,3 @@
+function javascriptExterno(){
+    alert("WOW");
+}
