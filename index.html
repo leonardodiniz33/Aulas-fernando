@@ -7,25 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .background {background-color: green;}
-    
-    
+        .background {
+            background-color: green;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
-<script>
-    function chamarAlerta(){
-        alert("PARABENS");
-    }
-</script>
-<script src="index.js"></script>
+    <script>
+        function chamarAlerta() {
+            alert("PARABENS");
+        }
+    </script>
+    <script src="index.js"></script>
 
 </head>
 
 <body>
+    <div class="paragrafo"></div>
     <h1 class="background">Carro Antigo</h1>
     <br>
     <img src="assets/img/carro.jpg" id="imagem" width="1000px">
+    <div class="caixa width-and-height" style="background: #036b52">A</div>
+    <div class="caixa width-and-height padding" style="background: #41197f;">B</div>
+    <div class="caixa width-and-height padding margin" style="background: #444955">C</div>
+    <div class="caixa width-and-height padding margin border" style="background: #3898EC">D</div>
     <br>
+   <!-- Texto fixo acima só atrinutos -->
     <p style="color: green;">Os carros antigos são uma verdadeira obra de arte sobre rodas. Com seu estilo retrô, o carro oldschool transborda
         personalidade e charme, capaz de conquistar a admiração de muitas pessoas.
 
@@ -44,6 +50,7 @@
         Dirigir um carro antigo é uma experiência inesquecível, uma mistura de nostalgia e prazer ao volante. Sem
         dúvida, um carro oldschool é um verdadeiro tesouro sobre rodas, que merece ser apreciado e cuidado com carinho.
     </p>
+</div>
     <button onclick="alert('OLA MUNDO!')">Alert!</button>
     <button onclick="chamarAlerta()">SEGREDO!</button>
     <button onclick="javascriptExterno()">CHAMA!</button>
